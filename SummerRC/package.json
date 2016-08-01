@@ -1,0 +1,15 @@
+{
+  "name": "summerreadingcompanion",
+  "description": "Summer Reading Companion",
+    "version": "1.0.0",
+    "private": true,
+     "logo": "https://reading-companionhp1.herokuapp.com/www/images/cordova.png",
+    "dependencies": {
+      "express": "3.x",
+        "mongodb": "1.1.8",
+        "socket.io": "0.9.10"
+    },
+	"scripts": {
+    "start": "node server.js"
+	}
+}

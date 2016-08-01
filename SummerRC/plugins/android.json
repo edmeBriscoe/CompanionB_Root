@@ -1,0 +1,40 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-http": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-sslcertificatechecker": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.edMe.companionB1"
+        }
+    }
+}

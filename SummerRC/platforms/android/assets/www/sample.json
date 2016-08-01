@@ -1,0 +1,681 @@
+{
+    "test": [
+        {
+	"titleId": "Aaa",
+            "topicId": "#noBullies #looong #tagged #hs",
+			"links": [
+				{
+					"description": "An interesting, long video about bullying in Australia. Start with the video, most of the questions are about the video.",
+					"linkY": "https://www.youtube.com/watch?v=TtEGAcLBTTA"
+				},
+				{
+					 "description": "Some tips about how share information with your friends carefully.",
+					 "linkY": "https://www.onguardonline.gov/articles/0033c-protection-connection"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa1",
+					"question": "What happens Monday in the video?",
+					"answerId": "3",
+					"questionFormat": "1",
+					"answers": [
+						"Five friends are hanging out taking selfies.",
+						"Three friends each lunch together and then meet a couple friends afterwards.",
+						"Three girls take a picture of Chloe with her boyfriend, and sends it to them.",
+						"Three girls take a picture of Chloe walking with a guy. Then put it on a blog."
+					],
+					"contextGroup1": "7MI",
+					"keys1":[]
+				},
+				{
+					"queId": "Aaa2",
+					"question": "What happens Tuesday?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"The picture makes a lot of students popular.",
+						"The picture spreads everywhere. Ben and Jack fight.",
+						"The picture is still on the blog, so Choloe and Kate fight.",
+						"Some of the students leave the school because of the picture."
+					],
+					"contextGroup1": "7De",
+					"keys1": []
+				},
+								{
+					"queId": "Aaa3",
+					"question": "What happens Wednesday?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"Ben goes to the principal's office and the news hears about the fight at school.",
+						".",
+						"Chloe goes to the principal's office.",
+						"Kate goes to the principal's office."
+					],
+					"contextGroup1": "7MI",
+					"keys1":[]
+				},
+				{
+					"queId": "Aaa4",
+					"question": "What is the most important thing that happens Thursday?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"The boys fight because of a photo the girls took.",
+						"The girls discussing taking down the picture and fight video.",
+						"The girls take a picture that will eventually get them in trouble.",
+						"Kate made a new friend since her old friends caused so much trouble."
+					],
+					"contextGroup1": "7MI",
+					"keys1":[]
+				},
+				
+				{
+					"queId": "Aaa5",
+					"question": "What happened to Kate afterwards?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [],
+					"subQuestion": "Did it fix her problems?",
+					"contextGroup1": "7De",
+					"contextGroup2": "7De",
+					"keys1":[
+						"schools",
+						"changed",
+						"new",
+						"left",
+						"transf"
+					],
+					"keys2":[
+						"No",
+						"n't",
+						"friend"
+					]
+				},
+				{
+					"queId": "Aaa6",
+					"question": "What message is shared between the video and the website?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"Do not fight at school.",
+						"Friends can be cruel to each other.",
+						"Think carefully before sharing anything online.",
+						"It is important to set the privacy settings on Facebook and Instagram."
+					 ],
+					"contextGroup1": "7MI",
+					"keys1": []
+				},
+				{
+					"queId": "Aaa7",
+					"question": "Who do you think most needed to read the webpage?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "What should that person have learned?",
+					"keys1": [
+						"Kate",
+						"Jack",
+						"Rez",
+						"Res",
+						"Em",
+						"Emily"
+					],
+					"keys2": [
+						"safe",
+						"t share",
+						"t give",
+						"t post",
+						"t blog",
+						"t text"
+					]
+				}
+			]
+	},
+	        {
+	"titleId": "Aab",
+            "topicId": "#July4th #BillofRights #ssMe",
+			"links": [
+				{
+					"description": "The National Archives maintains U.S. historical records. This webpage gives context to the first ten amendments.",
+					"linkY": "http://www.archives.gov/exhibits/charters/bill_of_rights.html"
+				},
+				{
+					 "description": "Montpelier was the home of James Madison, the fourth president, and is now a museum. Their website hosts the text of the Bill of Rights with a short introduction.",
+					 "linkY": "https://www.montpelier.org/constitution/bill-of-rights"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aab1",
+					"question": "Think about the texts your just read. What is an amendment in this context?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"another word for the Constitution",
+						"additional texts added to clarify the Constitution",
+						"important first draft used to create the Constitution",
+						"advertisements that helped convince people to pass the Constitution"
+					],
+					"contextGroup1": "7V",
+					"keys1":[]
+				},
+				{
+					"queId": "Aab2",
+					"question": "What was the primary goal of the Bill of Rights?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [
+						"make Americans feel more comfotable with the powers the Constitution gave the U.S. government",
+						"improve the Articles of Confederation so that it could become the Constitution",
+						"determine the number of representatives each state received",
+						"protect people from excessive bail"
+					],
+					"contextGroup1": "7MI",
+					"keys1": []
+				},
+				{
+					"queId": "Aab3",
+					"question": "What problem did the Bill of Rights address?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [],
+					"contextGroup1": "7MI",
+					"contextGroup2": "7Ev",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys2": [
+						"During the debat",
+						"Fresh in the",
+						"They demanded a"
+					],
+					"keys1": [
+						"power",
+						"British",
+						"protect",
+						"liberty",
+						"civil rights"
+					]
+				},
+				{
+					"queId": "Aab4",
+					"question": "Who wrote the Bill of Rights?",
+					"answerId": "",
+					"questionFormat": "3",
+					"answers": [ ],
+					"contextGroup1": "7De",
+					"keys1": [
+						"Madison",
+						"Madeson",
+						"Madason",
+						"Madisen",
+						"Madisin"
+					]
+				},
+				{
+					"queId": "Aab5",
+					"question": "Which amendment protects the free exercise of speech?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7De",
+					"contextGroup2": "7De",
+					"subQuestion": "Which amendment protects the free exercise of religion?",
+					"keys1": [
+						"first",
+						"1",
+						"1st",
+						"First",
+						"Ferst"
+					],
+					"keys2": [
+						"first",
+						"1",
+						"1st",
+						"First",
+						"Ferst"
+					]
+				},
+				{
+					"queId": "Aab6",
+					"question": "The fourth amendment protects Americans from &quot;unreasonable&quot; searches. What makes a search unreasonable?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"Unreasonable searches involve persons.",
+						"Unreasonable searches involve houses, papers, and effects.",
+						"Unreasonable searches do not determine the places that will be searched and things that will be seized using probable cause.",
+						"Unreasonable searches clearly describe the places that will be searched, things that will be seized, and based on probable cause."
+					 ],
+					"contextGroup1": "7V",
+					"keys1": [],
+					"keys2": []
+				},
+				{
+					"queId": "Aab7",
+					"question": "The sixth amendment protects Americans' right to a fair trial. It uses a term that we do not use much today: &quot;Assistance of Counsel.&quot; Which statement describes what &quot;Assistance of Counsel.&quot; looks like today?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [
+						"It is a lawyer that assists a person's defense.",
+						"It is a jury made of people from that State and district",
+						"It is a criminal prosecutor that ensures the trial is speedy.",
+						"It is a judge who ensure that informs the nature and cause of the crime.",
+						"It is a witness that provides testimony to help a person charged with a crime."
+					 ],
+					"contextGroup1": "7V",
+					"keys1": [],
+					"keys2": []
+				},
+				{
+					"queId": "Aab8",
+					"question": "What happens to the powers not given to the United States' government?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"They are given to Congress.",
+						"They are given to the people.",
+						"They are given to city governments.",
+						"They are given to state governments.",
+						"They are not given to anyone or any government."
+					 ],
+					"contextGroup1": "7De",
+					"keys1": [],
+					"keys2": []
+				},
+				{
+					"queId": "Aab9",
+					"question": "Is there another right that you would want to protect? Describe your right below. Or, if you think the Bill of Rights is perfect describe why you feel that way.",
+					"answerId": "",
+					"questionFormat": "3",
+					"answers": [],
+					"contextGroup1": "7De",
+					"keys1": [
+						" ",
+						"No"
+						]
+				}
+			]
+	},
+        {
+	"titleId": "Aac",
+            "topicId": "#June29 #hugeHEfind #chemMe",
+			"links": [
+				{
+					"description": "CNN reported on a huge helium find near the east coast of Africa.",
+					"linkY": "http://www.cnn.com/2016/06/28/africa/helium-discovery-tanzania/index.html"
+				},
+				{
+					 "description": "The Los Alamos National Labratory works with many chemists. This page describes the sceience behind helium.",
+					 "linkY": "http://periodic.lanl.gov/2.shtml"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aac1",
+					"question": "Is there a lot of helium in the universe?",
+					"answerId": "4",
+					"questionFormat": "2",
+					"answers": [
+						"No, it was not even discovered until 1868.",
+						"No, it is a found in only a couple places on Earth.",
+						"No, it is a very small percentage of our atmosphere.",
+						"Yes, it is the most common element in the universe.",
+						"Yes, it is the second most common element in the universe."
+					],
+					"contextGroup1": "9De",
+					"contextGroup2": "9Ev",
+					"keys1":[
+						"Except for hydrogen",
+						"In fact, all",
+						"In fact all"
+					]
+				},
+								{
+					"queId": "Aac2",
+					"question": "Is there enough helium on Earth?",
+					"answerId": "3",
+					"questionFormat": "2",
+					"answers": [
+						"No, only the United States has helium.",
+						"No, only 1 part in 200,000 molecules are helium.",
+						"We now think so because just one part of the find could supply the world for years.",
+						"We now think so because the U.S. started storing helium today to make sure we always have enough."
+					],
+					"contextGroup1": "9MI",
+					"contextGroup2": "9Ev",
+					"keys1":[
+						"The team est",
+						"To put this",
+						"This is a",
+						"Thats all set",
+						"That's all set"
+					]
+				},
+								{
+					"queId": "Aac3",
+					"question": "Atmosphere is mentioned many time in the articles. What is another word for atmosphere in this context?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [
+						"air",
+						"Earth",
+						"helium",
+						"hydrogen",
+						"space"
+					],
+					"contextGroup1": "9V",
+					"keys1":[]
+				},
+				{
+					"queId": "Aac4",
+					"question": "The Los Alamos National Labratory calls helium an importnant &quot;component in both the proton-proton reaction and the carbon cycle.&quot; What does &quot;component&quot; mean in this article?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [
+						"a part of",
+						"the result of",
+						"a complete cycle",
+						"a proton-proton cycle"
+					],
+					"contextGroup1": "7V",
+					"keys1": [
+					    "It is our",
+					    "Which makes you",
+					    "Which make you"
+					]
+				},
+				{
+					"queId": "Aac5",
+					"question": "Why do we need helium?",
+					"answerId": "3",
+					"questionFormat": "2",
+					"answers": [ 
+						"to breathe",
+						"to fuel volcanic eruptions",
+						"because it is in natural gas",
+						"high-tech machines like nuclear reactors and MRI machines"
+					],
+					"contextGroup1": "9De",
+					"contextGroup2": "9Ev",
+					"keys1": [
+						"Helium may bes",
+						"Helum may bes"
+					]
+				},
+				{
+					"queId": "Aac6",
+					"question": "Diveena Danabalan is quoted saying: &quot;We are now working to identify the 'goldilocks-zone' between the ancient crust and the modern volcanoes where the balance between helium release and volcanic dilution is 'just right'.&quot; Which phase helps describe what she means by the term &quot;goldilocks-zone&quot;?",
+					"answerId": "6",
+					"questionFormat": "1",
+					"answers": [
+						"Diveena Danablan",
+						"We are no working",
+						"ancient crust",
+						"modern volcanoes",
+						"helium release",
+						"volcanic dilution",
+						"just right"
+					 ],
+					"contextGroup1": "9V",
+					"keys1": []
+				},
+								{
+					"queId": "Aac7",
+					"question": "Where is Tanzania?",
+					"answerId": "0",
+					"questionFormat": "2",
+					"answers": [
+						"in the East African Rift Valley",
+						"surrounding Durham",
+						"next to India",
+						"near Tokyo",
+						"in Japan"
+					 ],
+					"contextGroup1": "9De",
+					"contextGroup2": "9Ev",
+					"keys1": [
+						"Within the",
+						"That's all set",
+						"Thats all set"
+					]
+				}
+			]
+	},
+        {
+	"titleId": "Aad",
+            "topicId": "#myGrit #Ican #IhelpMe",
+			"links": [
+				{
+					"description": "Angela Duckworth is a former teacher and a researcher. She studies gritty students, and how successful these students are. After watching the video, scroll down to the button for &quot;Interactive Transcript.&quot; Use the transcript to help answer the questions.",
+					"linkY": "https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit?language=en"
+				},
+				{
+					 "description": "This website has 10 questions that measures grit. You may want to bookmark the survey and return to it from time to time.",
+					 "linkY": "http://angeladuckworth.com/grit-scale/"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aad1",
+					"question": "What does Angela Duckworth think makes people good at math?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"be smart",
+						"have a high IQ",
+						"be good at math",
+						"work hard and long enough"
+					],
+					"contextGroup1": "7MI",
+					"keys1":[]
+				},
+				{
+					"queId": "Aad2",
+					"question": "What is grit?",
+					"answerId": "2",
+					"questionFormat": "2",
+					"answers": [
+						"high test scores",
+						"another word for intelligence",
+						"passion and perseverence for long-term goals",
+						"a type of talent possessed by the smartest people"
+					],
+					"contextGroup1": "7MI",
+					"contextGroup2": "7Ev",
+					"keys1": [
+					    "Grit is pa",
+					    "Grit is hav",
+					    "Grit is sti"
+					]
+				},
+				{
+					"queId": "Aad3",
+					"question": "In the summary Dr. Duckworth says, &quot;We need to take our best ideas, our strongest <i>intuitions</i>, and we need to test them.&quot; What does &quot;intuitions&quot; in this sentence?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [
+						"good guesses about what might work",
+						"existing knowledge of what works best",
+						"investigations into what just happened",
+						"evidence from previous studies about what works best"
+					 ],
+					"contextGroup1": "7V",
+					"keys1": []
+				},
+				{
+					"queId": "Aad4",
+					"question": "What problem confronted Angela Duckworth as a teacher?",
+					"answerId": "2",
+					"questionFormat": "2",
+					"answers": [
+						"She taught in New York City.",
+						"Her students were not motivated to perform well.",
+						"Her students did poorly on the standardized test.",
+						"Her strongest performers did not have high IQ scores, and her &quot;smartest&quot; weren't doing so well.",
+						"Her students scored very low on the Grit Scale, but other classes had very high scores on the Grit Scale."
+					 ],
+					"contextGroup1": "7MI",
+					"contextGroup2": "7Ev",
+					"keys1": [
+						"What struck me",
+						"What stuck me",
+						"Some of my",
+						"Som of my"
+					]
+				},
+								{
+					"queId": "Aad5",
+					"question": "What is a &quot;growth mindset&quot;?",
+					"answerId": "2",
+					"questionFormat": "4",
+					"answers": [],
+					"contextGroup1": "7MI",
+					"contextGroup2": "7Ev",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+						"ability",
+						"learn",
+						"not fix",
+						"change",
+						"effort"
+					],
+					"keys2": [
+						"So far",
+						"This is an",
+						"Some of my",
+						"Som of my",
+						"Dr. Dweck has",
+						"Dr Dweck has",
+						"Dr Deck has",
+						"Dr. Deck has"
+					]
+				},
+				{
+					"queId": "Aad6",
+					"question": "Recall that Dr. Duckworth said, &quot;In fact, in our data, grit is usually unrelated or even inversely related to measures of talent.&quot; What does &quot;inverse&quot; mean in this sentence?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"unrelated",
+						"exactly related",
+						"as grit increases talent decreases",
+						"as grit increases talent slightly increases"
+					],
+					"contextGroup1": "7V",
+					"keys1": []
+				},
+				{
+					"queId": "Aad7",
+					"question": "Dr. Dweck and Dr. Duckworth think it's important to learn about the brain. That is why we have #brainMe articles for you. What happens when Dr. Dweck taught students about how the brain grows and changes when it is challenged?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7De",
+					"contextGroup2": "7Ev",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+						"persev",
+						"persiv",
+						"t permanent",
+						"t fixed",
+						""
+					],
+					"keys2": [
+						"Dr. Dweck has",
+						"Dr Dweck has",
+						"Dr Deck has",
+						"Dr. Deck has"
+					]
+				}
+			]
+	},
+        {
+	"titleId": "Aae",
+            "topicId": "#June 29 #purseblog #fashionMe",
+			"links": [
+				{
+					"description": "Emily Anderson's article Purseblog describes an interesting connection between many of this week's handbags.",
+					"linkY": "http://www.purseblog.com/buzz-worthy/next-trendy-designer-bags/"
+				},
+				{
+					 "description": "Amanda Mull's article from May 19th is called &quot;6 Bags That are About to Have a Very Big Summer.&quot;",
+					 "linkY": "http://www.purseblog.com/buzz-worthy/next-trendy-designer-bags/"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aae1",
+					"question": "What are these two articles mainly about?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"Different hair trends that may takehold this summer.",
+						"Different handbag trends that may takehold this summer.",
+						"Six bags that sold the most this Spring and should sell the most this Summer.",
+						"The eight best bags worn this week as voted by all the readers on Purseblog.com"
+					],
+					"contextGroup1": "7MI",
+					"keys1":[]
+				},
+				{
+					"queId": "Aae2",
+					"question": "What fraction of the bags are red in the first article?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [],
+					"contextGroup1": "M105",
+					"subQuestion": "Describe whether you think this is a fashion trend for Summer '16.",
+					"contextGroup2": "9EI",
+					"keys1": [
+						"1/2",
+						"2/4",
+						"4/8",
+						"half",
+						"halv"
+					],
+					"keys2": [
+						"No ",
+						"not ",
+						"No",
+						"not",
+						"don't"
+					]
+				},
+				{
+					"queId": "Aae4",
+					"question": "Emily Anderson wrote this sentnece about Rihanna's bag:, &quot;Rihanna carried this bag many times in 2015, but she took an <i>extended</i> break from it in 2016 so she could spend more time with all of her Dior bags.&quot; What does &quot;extended&quot; mean in this context?",
+					"answerId": "",
+					"questionFormat": "3",
+					"answers": [ ],
+					"contextGroup1": "7V",
+					"keys1": [
+						"time",
+						"long",
+						"period"
+					]
+
+				},
+				{
+					"queId": "Aaa4",
+					"question": "What happens when Lucius Malfoy throws the sock at Dobby?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+						"free"
+					],
+					"keys2": [
+						"Master threw it",
+						"Dobby is free"
+					]
+				}
+			]
+		}
+    ]
+}

@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="msapplication-tap-highlight" content="no" />
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+    <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';">-->
+    <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <script src="js/cordova.js"></script>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script type="application/javascript" src="js/fastclick.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/jquery.mobile-1.4.5.min.js"></script>
+    <script src="scripts/jquery.validate.min.js"></script>
+
+    <!-- MB: Originally added these libraries to allow for cloud storage of data but removing because they are ionic-centric and we do not need them
+    <!-- your app's js -->
+    <script src="js/parse-latest.min.js"></script>
+    <script src="lib/moment/moment.js"></script>
+    <script src="lib/angular-moment/angular-moment.js"></script>
+
+    <title>Summer Reading Companion</title>
+</head>
+
+<!-- Calling onDeviceReady function right in the body tag-->
+<body onload="onDeviceReady()">
+
+    <div data-role="page" id="home_1_page">
+        <div data-role="header">
+            <h6>Summer Reading Companion</h6>
+            <a href="#about_page" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-info" data-transition="pop"></a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="home1"></p>
+            <h4>Enter your Email Address to Log in to the App!</h4>
+            <br />
+            <input id="email" type="text" name="email" required>
+            <!--<input type="text" id="text1">-->
+            <a href="#home_page" class="ui-btn ui-corner-all" data-transition="flip" id="Log_in_btn">Log in</a>
+            <!-- Let's persist this data locally. 1) take the text in the text box. 2) save it locally (var localEmail). 3) Wrap this box in a conditional statement:
+            <!-- Conditional logic: If localEmail != "", then display localEmail as string in text box. Else, if localEmail === "", then display current text box. -->
+        </div>
+    </div>
+
+
+    <div data-role="page" id="home_page">
+        <div data-role="header">
+            <h6>Summer Reading Companion</h6>
+        </div>
+
+        <div role="main" class="ui-content">
+            <h4>Welcome Student!!</h4>
+            <a href="#chapters_page" class="ui-btn ui-corner-all" data-transition="flip" id="start_btn">Start</a>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+            <a href="#home_1_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+        </div>
+    </div>
+
+
+    <div data-role="page" id="chapters_page">
+        <div data-role="header">
+            <h1>Chapters</h1>
+            <a href="#home_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-home" data-transition="flip" data-direction="reverse">Home</a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p>Please select one of the chapters</p>
+            <ul data-role="listview" data-inset="true" id="chapters"></ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+
+    <div data-role="page" id="sites_page">
+        <div data-role="header">
+            <h1>Sites</h1>
+            <a href="#chapters_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="site"></p>
+            <ul data-role="listview" data-inset="true" id="sites"></ul>
+        </div>
+        <br />
+        <a href="#questions_page" class="ui-btn ui-corner-all" data-transition="flip" id="showQuestions">Questions</a>
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+    <div data-role="page" id="questions_page">
+        <div data-role="header">
+            <h1>Questions</h1>
+            <a href="#sites_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+        </div>
+        <div role="main" class="ui-content">
+            <p id="chapter"></p>
+            <ul data-role="listview" data-inset="true" id="questions"></ul>
+        </div>
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+    <div data-role="page" id="answers_page">
+        <div data-role="header">
+            <h1><span id="MyHeaderID">Answers</span></h1>
+            <a href="#questions_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+            <a href="#next_answers_page" class="ui-btn ui-corner-all showNxtPage ui-btn-icon-right ui-icon-forward" data-transition="flip" data-direction="forward">Next</a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="answer1"></p>
+            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+            <ul data-role="listview" data-inset="true" id="answers"></ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+    <div data-role="page" id="next_answers_page">
+        <div data-role="header">
+            <h1><span id="MyHeaderID">Answers</span></h1>
+            <a href="#questions_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+            <a href="#next_answers_page" class="ui-btn ui-corner-all showNxtPage ui-btn-icon-right ui-icon-forward" data-transition="flip" data-direction="forward">Next</a>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="answer2"></p>
+            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+            <ul data-role="listview" data-inset="true" id="answers_next"></ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+
+    <!--<div role="main" class="ui-content">
+        <p id="answer1"></p>
+        <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+        <ul data-role="listview" data-inset="true" id="answers"></ul>
+    </div>-->
+    <!--<div data-role="footer" data-position="fixed">
+    </div>-->
+
+    <div data-role="page" id="scores_page">
+        <div data-role="header">
+            <h1><span id="MyScoreID">Scores</span></h1>
+        </div>
+
+        <div role="main" class="ui-content">
+            <p id="score1"></p>
+            <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; minimum-scale=1.0; user-scalable=0;" />
+            <ul data-role="listview" data-inset="true" id="scores"></ul>
+        </div>
+
+        <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+
+    <div data-role="page" data-dialog="true" id="about_page">
+        <div data-role="header">
+            <h1>About</h1>
+        </div>
+    </div>
+    <!--MB: If we go with socket.io, we need to initialize the socket.io connection in the html so it is always listening -->
+    <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+    <script>
+        var socket = io.connect('http://localhost:3000');
+
+        socket.emit('server function', {});
+        socket.on('client function', function (data) {
+            console.log("server called the client");
+        });    </script>
+</body>
+
+</html>

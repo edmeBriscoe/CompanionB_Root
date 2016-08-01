@@ -1,0 +1,60 @@
+h4, h5 {
+    font-weight: 500;
+    text-align: center;
+}
+
+.ui-content a{
+    /*font-size: 18px;*/
+}
+
+
+.ui-page-theme-a a, html .ui-bar-a a, html .ui-body-a a, html body .ui-group-theme-a a {
+    font-weight: 500;
+}
+
+.ui-btn {
+    font-size: 14px;
+}
+
+.answer1 {
+    white-space: normal !important;
+}
+
+.answer2 {
+    white-space: normal !important;
+}
+
+.answer {
+    white-space: normal !important;
+}
+
+.score1 {
+    white-space: normal !important;
+}
+
+.site {
+    white-space: normal !important;
+}
+
+.ui-header .ui-title {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.ui-page .ui-header {
+    background:  #00FF1E !important;
+}
+
+.ui-page .ui-footer {
+    background:  #00FF1E !important;
+}
+
+.ui-page .ui-content .ui-listview .ui-li-desc {
+    white-space: normal;
+}
+
+
+.dark{
+    background:  #A9A9A9 !important;
+}
+
