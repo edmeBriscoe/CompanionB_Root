@@ -194,14 +194,6 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
         "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
         "id": "cordova-plugin-media-capture.CaptureAudioOptions",
         "clobbers": [
@@ -256,6 +248,14 @@ module.exports = [
         "clobbers": [
             "window.plugins.sslCertificateChecker"
         ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -266,10 +266,10 @@ module.exports.metadata =
     "cordova-plugin-device": "1.1.2",
     "cordova-plugin-file": "4.2.0",
     "cordova-plugin-http": "1.1.0",
-    "cordova-plugin-inappbrowser": "1.4.0",
     "cordova-plugin-media-capture": "1.3.0",
     "cordova-plugin-sslcertificatechecker": "5.0.0",
-    "cordova-plugin-whitelist": "1.2.2"
+    "cordova-plugin-whitelist": "1.2.2",
+    "cordova-plugin-inappbrowser": "1.4.0"
 };
 // BOTTOM OF METADATA
 });

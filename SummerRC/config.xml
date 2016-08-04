@@ -11,6 +11,12 @@
   <plugin name="cordova-plugin-whitelist" version="1" />
   <access origin="*" />
   <allow-navigation href="*" />
+  <allow-navigation href="http://*/*" />
+  <allow-navigation href="https://*/*" />
+  <allow-navigation href="tel:*" />
+  <allow-navigation href="sms:*" />
+  <allow-navigation href="mailto:*" />
+  <allow-navigation href="geo:*" />
   <allow-intent href="http://*/*" />
   <allow-intent href="https://*/*" />
   <allow-intent href="tel:*" />
@@ -112,10 +118,10 @@
   <preference name="deployment-target" value="9" />
   <preference name="android-minSdkVersion" value="14" />
   <plugin name="cordova-plugin-compat" version="1.0.0" />
-  <plugin name="cordova-plugin-inappbrowser" version="1.4.0" />
   <plugin name="cordova-plugin-http" version="1.1.0" />
   <plugin name="cordova-plugin-sslcertificatechecker" version="5.0.0" />
   <plugin name="cordova-plugin-camera" version="2.2.0" />
   <plugin name="cordova-plugin-media-capture" version="1.3.0" />
   <plugin name="cordova-plugin-device" version="1.1.2" />
+  <plugin name="cordova-plugin-inappbrowser" version="1.4.0" />
 </widget>

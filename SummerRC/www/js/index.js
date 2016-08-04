@@ -1,4 +1,5 @@
 // Global Variables
+console.log("start from start");
 var jsonData = null;
 var totalChapters = 0;
 var totalQuestions = -1;
@@ -48,22 +49,22 @@ var newScore = {
     studentResponse2: null
 };
 
-$(document).on('mobileinit', function () {
- //   alert('000 initial message')
+function onLoad() {
     $.mobile.allowCrossDomainPages = true;
     $.support.cors = true;
-});
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
 
-
-document.addEventListener("deviceready", onDeviceReady, false);
-//alert("device heard 105");
 
 function onDeviceReady() {
- 
+    //document.addEventListener('backbutton', onBack, false);
+    //document.addEventListener("pause", onPause, false);
+    //document.addEventListener("resume", onResume, false);
+    //console.log("entering onDeviceReady");
     FastClick.attach(document.body);
 
     $("#home_page").on('touchmove', function (ev) {
-        ev.preventDefault();
+        ev.preventfault();
     });
 
     // Disable touch scrolling on the questions page
@@ -71,20 +72,28 @@ function onDeviceReady() {
         ev.preventDefault();
     });
     // AJAX call to get JSON data containing the chapters and question	
- //   alert("device ready 222");
     var path = window.location.href.replace('index.html', '');
- //   alert("device ready");
-        
     $.ajax({
-       //    url: path + "sample.json",
-        url: "http://e-ccss.com/sumrd.json",
-        //url: "http://localhost:3000/server",
+      //     url: path + "sample.json",
+        url: "http://e-ccss.com/RioELA.json",
         dataType: "json",
         crossDomain: true,
         xhrFields: {
             withCredentials: true
         }
     }).done(ajaxSuccess).fail(ajaxError);
+}
+
+function onPause() {
+    console.log("on pause");
+}
+
+function onResume() {
+    console.log("on resume");
+}
+
+function onBack() {
+    console.log("on back");
 }
 
 
@@ -96,7 +105,6 @@ function ajaxSuccess(data) {
         $("#Log_in_btn").on('click', validateEmail);
         $("#start_btn").on('click', addAllChapters);
     }
-
 }
 
 
@@ -106,7 +114,8 @@ function ajaxError(error) {
 
 
 function addAllChapters() {
-
+    document.addEventListener('backbutton', onBack, false);
+    console.log("entering addAllChapters");
     if (visitChap == 0) {
         // Reset all chapters in the list
         if ($("#chapters").children().length > 0) {
@@ -134,6 +143,8 @@ function addAllChapters() {
 
 
 function addAllSites(ev) {
+    document.addEventListener('backbutton', onBack, false);
+    console.log("entering addAllSites");
     $("#chapter").html(ev.currentTarget.innerHTML);
     if ($("#sites").children().length > 0) {
         $("#sites li").remove();
@@ -153,7 +164,7 @@ function addAllSites(ev) {
         $("#sites").append(label);
         $("#sites").append('<br>');
         // Create a new list item containing each answers
-        var ste = "<li><a href='#' onclick=\"window.open('"+jsonData.test[siteID].links[i].linkY+"', '_system');\">"+jsonData.test[siteID].links[i].linkY+"</a></li>";
+        var ste = "<li><a href='#' onclick=\"cordova.InAppBrowser.open('" + jsonData.test[siteID].links[i].linkY + "', '_blank');\">" + jsonData.test[siteID].links[i].linkY + "</a></li>";
         // Append each answer to the answers list
         $("#sites").append(ste);
         $("#sites").append('<br>');
@@ -165,12 +176,31 @@ function addAllSites(ev) {
 
 }
 
+function openUrl(url) {
+    document.addEventListener('backbutton', onBack, false);
+    console.log("entering openUrl " + url);
+    $("#contentN").empty();
+    console.log("1 " + url);
+    //  var ste = "<li><a href='#' onclick=\"window.open("+url+", '_self', 'location=yes');\">" + url + "</a></li>";
+    //var ste =
+    console.log("2 " + url);
+    // Append each answer to the answers list
+    //$("#contentN").append(ste);
+    console.log("3 " + url);
+    var windowSize = "width=" + window.innerWidth + ",height=" + window.innerHeight + ",scrollbars=no";
+    window.open(url, '_blank', 'location=yes', 'popup', windowSize);
+  //  window.location.href = url;
+    $("#contentN").listview().listview('refresh');
+    console.log("4 " + url);
+  //  $("#content").append("window.open(" + url + ", '_self')");
+   // window.open(url, '_blank', 'location=yes');
+}
+
+
 
 function addAllQuestions(ev) {
     $("#questions").html(ev.currentTarget.innerHTML);
     // Change the chapter title inside the <p> element
- //   $("#chapter").html(ev.currentTarget.innerHTML);
-
     // Reset all questions in the list
     if ($("#questions").children().length > 0) {
         $("#questions li").remove();

@@ -9,7 +9,7 @@
     <!--<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval';">-->
     <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
     <link rel="stylesheet" href="css/index.css" />
-    <script src="js/cordova.js"></script>
+    <script src="cordova.js"></script>
     <script src="js/jquery-2.1.3.min.js"></script>
     <script type="application/javascript" src="js/fastclick.js"></script>
     <script src="js/index.js"></script>
@@ -26,7 +26,7 @@
 </head>
 
 <!-- Calling onDeviceReady function right in the body tag-->
-<body onload="onDeviceReady()">
+<body onload="onLoad()">
 
     <div data-role="page" id="home_1_page">
         <div data-role="header">
@@ -92,6 +92,16 @@
         <br />
         <a href="#questions_page" class="ui-btn ui-corner-all" data-transition="flip" id="showQuestions">Questions</a>
         <div data-role="footer" data-position="fixed">
+        </div>
+    </div>
+
+    <div data-role="page" id="content_page">
+        <div data-role="header">
+            <h1>Content</h1>
+            <a href="#sites_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
+        </div>
+        <div role="main" class="ui-content">
+            <ul data-role="listview" data-inset="true" id="contentN"></ul>
         </div>
     </div>
 

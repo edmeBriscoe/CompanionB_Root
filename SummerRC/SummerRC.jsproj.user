@@ -4,7 +4,7 @@
     <ReferenceCachePath>C:\Users\BinduK\AppData\Local\Temp\2r1f5l2q_SummerRC_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
-    <DebuggerFlavor>RippleNexus</DebuggerFlavor>
+    <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
     <AndroidEmulatorID>AndroidDevice;Device</AndroidEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
