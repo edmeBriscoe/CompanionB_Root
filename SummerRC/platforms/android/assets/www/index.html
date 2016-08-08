@@ -185,7 +185,7 @@
     <!--MB: If we go with socket.io, we need to initialize the socket.io connection in the html so it is always listening -->
     <script type="text/javascript" src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
     <script>
-        var socket = io.connect('http://localhost:3000');
+        var socket = io.connect('http://ec2-52-87-183-35.compute-1.amazonaws.com:9000');
 
         socket.emit('server function', {});
         socket.on('client function', function (data) {

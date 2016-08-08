@@ -35,7 +35,7 @@ var selectedAnsArr = [];
 
 var ItemSchema = ContentModel.schema;
 
-var socket = io.connect();
+var socket = io.connect('http://ec2-52-87-183-35.compute-1.amazonaws.com:9000');
 
 //Initializing newScore data element (captures the data for each item)
 var newScore = {

@@ -1,11 +1,12 @@
 {
- "android": {
-     "release": {
-         "keystore":"C:\\Users\\BinduK\\Desktop\\release.Keystore",
-         "storePassword":"pwd123",
-         "alias":"bkumari",
-         "password":"pwd123",
-         "keystoreType":""
-       }
-   }
-}
+     "android": {
+         "release": {
+            "keystore": "C:\\Users\\asfan\\Downloads\\release.Keystore",
+             "storePassword": "pwd123",
+             "alias": "bkumari",
+             "password" : "pwd123",
+             "keystoreType": ""
+
+         }
+     }
+ }

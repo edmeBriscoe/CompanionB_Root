@@ -3,8 +3,8 @@
 <VSBuildInfo xmlns="http://schemas.microsoft.com/developer/appx/2012/build">
   <Metadata>
     <Item Name="VisualStudio" Version="14.0" />
-    <Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
-    <Item Name="OperatingSystem" Version="6.3.9600.16384 (winblue_rtm.130821-1623)" />
+    <Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Community 2015" />
+    <Item Name="OperatingSystem" Version="10.0.10586.0 (th2_release.151029-1700)" />
     <Item Name="ProjectGUID" Value="480940b8-2ec6-4392-9fff-338a3715c3ab" />
   </Metadata>
 </VSBuildInfo>
