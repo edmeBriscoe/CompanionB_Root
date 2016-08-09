@@ -1,5 +1,4 @@
 // Global Variables
-console.log("start from start");
 var jsonData = null;
 var totalChapters = 0;
 var totalQuestions = -1;
@@ -31,8 +30,9 @@ var loop2 = 0;
 var email = null;
 var correctAnsArr = [];
 var selectedAnsArr = [];
-
-
+var searchChapFlag = 0;
+var search_text = null;
+var path = null;
 var ItemSchema = ContentModel.schema;
 
 var socket = io.connect('http://ec2-52-87-183-35.compute-1.amazonaws.com:9000');
@@ -60,7 +60,7 @@ function onDeviceReady() {
     //document.addEventListener('backbutton', onBack, false);
     //document.addEventListener("pause", onPause, false);
     //document.addEventListener("resume", onResume, false);
-    //console.log("entering onDeviceReady");
+    console.log("entering onDeviceReady");
     FastClick.attach(document.body);
 
     $("#home_page").on('touchmove', function (ev) {
@@ -72,9 +72,9 @@ function onDeviceReady() {
         ev.preventDefault();
     });
     // AJAX call to get JSON data containing the chapters and question	
-    var path = window.location.href.replace('index.html', '');
+    path = window.location.href.replace('index.html', '');
     $.ajax({
-      //     url: path + "sample.json",
+     //      url: path + "sample.json",
         url: "http://e-ccss.com/RioELA.json",
         dataType: "json",
         crossDomain: true,
@@ -114,29 +114,51 @@ function ajaxError(error) {
 
 
 function addAllChapters() {
-    document.addEventListener('backbutton', onBack, false);
-    console.log("entering addAllChapters");
-    if (visitChap == 0) {
+    if (visitChap == 0 || searchChapFlag == 1) {
         // Reset all chapters in the list
         if ($("#chapters").children().length > 0) {
             $("#chapters li").remove();
+            $("#chapters table").remove();
+            $("#chapters input").remove();
         }
         // Get the total chapters from the chapters array and assign it to totalChapters global variable
         totalChapters = jsonData.test.length;
         loop2 = 0;
         jsonObj = [];
-
+        $("#chapters").append("<table style='width:100%'><tr><td><input name='searchTxt' type='text'/></td><td style='text-align : center; width:4em'><a id='searchChapter'><img id ='search' src='/images/search.png'/></a></td></tr></table>");
         for (var i = 0; i < totalChapters; i++) {
-            // Create a new list item containing each chapters
             var chapter = "<li><a href='#sites_page' class='chapter' id='" + i + "' data-transition='flip'>" + jsonData.test[i].topicId + "</a></li>";
-
             // Append each chapter to the chapters list
             $("#chapters").append(chapter);
         }
-
+        if (!search_text ) {
+            searchChapFlag = 0;
+        }
         // Attach click event listener to all added chapters
         $("#chapters li a.chapter").on('click', addAllSites);
     }
+
+    $(document).on("click", "#searchChapter", function () {
+        search_text = $('input:text[name=searchTxt]').val();
+        console.log("search value is " + search_text);
+        searchChapFlag = 1;
+        if ($("#chapters").children().length > 0) {
+            $("#chapters li").remove();
+        }
+        for (var i = 0; i < totalChapters; i++) {
+            if (jsonData.test[i].topicId.indexOf(search_text) < 0) {
+                continue;
+            } else {
+                var chapter = "<li><a href='#sites_page' class='chapter' id='" + i + "' data-transition='flip'>" + jsonData.test[i].topicId + "</a></li>";
+            }
+            // Append each chapter to the chapters list
+            $("#chapters").append(chapter);
+            $("#chapters li a.chapter").on('click', addAllSites);
+            $("#chapters").listview().listview('refresh');
+        }
+    });
+    search_text = "";
+   
     // Refresh the listview widget
     $("#chapters").listview().listview('refresh');
 }
@@ -305,9 +327,9 @@ function addAllAnswers(ev) {
         }
         $("#answers").append('</div>');
     } else if (queFormat == 9) {
-        $("#answers").append('<a id="recRec">><div style="text-align : center;"><img id ="recImg" src="/images/neutralMic.png" class="center"/></div></a>');
+        $("#answers").append('<a id="recRec"><div style="text-align : center;"><img id ="recImg" src="/images/neutralMic.png" class="center"/></div></a>');
     } else if (queFormat == 10) {
-        $("#answers").append('<a id="takephoto">><div style="text-align : center;"><img id ="picImg" src="/images/neutralCam.png"/></div></a>');
+        $("#answers").append('<a id="takephoto"><div style="text-align : center;"><img id ="picImg" src="/images/neutralCam.png"/></div></a>');
         $("#answers").append('</br><input type="button" value="Pick" id="pick" /></br>');
     }
     $("#answers li a.answer1").on('click', testClick);
@@ -484,10 +506,10 @@ function nextQuestion(ev) {
         boolCheck = 1;
         visitChap = 1;
         totalQuestions = -1;
-   //     calculateScores();
         jsonObj = [];
         $("#chapters li a#" + ChapterID).addClass('dark');
         event.preventDefault();
+        addAllChapters();
         //Call function to send data here on 7/6/16 (chapter end, now question end)
         $(":mobile-pagecontainer").pagecontainer('change', '#chapters_page', {
             transition: "flip",
@@ -567,9 +589,9 @@ function nextQuestion(ev) {
             }
             $("#answers_next").append('</div>');
         } else if (queFormat == 9) {
-            $("#answers").append('<a id="recRec">><div style="text-align : center;"><img id ="recImg" src="/images/neutralMic.png" class="center"/></div></a>');
+            $("#answers").append('<a id="recRec"><div style="text-align : center;"><img id ="recImg" src="/images/neutralMic.png" class="center"/></div></a>');
         } else if (queFormat == 10) {
-            $("#answers").append('<a id="takephoto">><div style="text-align : center;"><img id ="picImg" src="/images/neutralCam.png"/></div></a>');
+            $("#answers").append('<a id="takephoto"><div style="text-align : center;"><img id ="picImg" src="/images/neutralCam.png"/></div></a>');
             $("#answers").append('</br><input type="button" value="Pick" id="pick" /></br>');
         }
    

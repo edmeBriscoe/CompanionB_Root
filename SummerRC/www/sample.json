@@ -1,331 +1,359 @@
 {
     "test": [
         {
-	"titleId": "Aaa",
-            "topicId": "#noBullies #looong #tagged #hs",
+	"titleId": "RioA",
+            "topicId": "#rugby #rioRules #vid",
 			"links": [
 				{
-					"description": "An interesting, long video about bullying in Australia. Start with the video, most of the questions are about the video.",
-					"linkY": "https://www.youtube.com/watch?v=TtEGAcLBTTA"
+					"description": "A quick video on the rules of rugby from the official Olympic YouTube channel.",
+					"linkY": "https://www.youtube.com/watch?v=Tm6m5QhZ-Mg"
 				},
 				{
-					 "description": "Some tips about how share information with your friends carefully.",
-					 "linkY": "https://www.onguardonline.gov/articles/0033c-protection-connection"
+					 "description": "Pretend like you are an international tourist! Here is the actual program for the rugby matches that will be played in Rio.",
+					 "linkY": "https://smsprio2016-a.akamaihd.net/sport/T9NLlG/rio2016_spectator_guide_og_rugby_en.pdf"
 				}
 			],
 			"questions": [
 				{
-					"queId": "Aaa1",
-					"question": "What happens Monday in the video?",
-					"answerId": "3",
-					"questionFormat": "1",
-					"answers": [
-						"Five friends are hanging out taking selfies.",
-						"Three friends each lunch together and then meet a couple friends afterwards.",
-						"Three girls take a picture of Chloe with her boyfriend, and sends it to them.",
-						"Three girls take a picture of Chloe walking with a guy. Then put it on a blog."
-					],
-					"contextGroup1": "7MI",
-					"keys1":[]
-				},
-				{
-					"queId": "Aaa2",
-					"question": "What happens Tuesday?",
-					"answerId": "1",
-					"questionFormat": "1",
-					"answers": [
-						"The picture makes a lot of students popular.",
-						"The picture spreads everywhere. Ben and Jack fight.",
-						"The picture is still on the blog, so Choloe and Kate fight.",
-						"Some of the students leave the school because of the picture."
-					],
-					"contextGroup1": "7De",
-					"keys1": []
-				},
-								{
-					"queId": "Aaa3",
-					"question": "What happens Wednesday?",
-					"answerId": "1",
-					"questionFormat": "1",
-					"answers": [
-						"Ben goes to the principal's office and the news hears about the fight at school.",
-						".",
-						"Chloe goes to the principal's office.",
-						"Kate goes to the principal's office."
-					],
-					"contextGroup1": "7MI",
-					"keys1":[]
-				},
-				{
-					"queId": "Aaa4",
-					"question": "What is the most important thing that happens Thursday?",
-					"answerId": "1",
-					"questionFormat": "1",
-					"answers": [
-						"The boys fight because of a photo the girls took.",
-						"The girls discussing taking down the picture and fight video.",
-						"The girls take a picture that will eventually get them in trouble.",
-						"Kate made a new friend since her old friends caused so much trouble."
-					],
-					"contextGroup1": "7MI",
-					"keys1":[]
-				},
-				
-				{
-					"queId": "Aaa5",
-					"question": "What happened to Kate afterwards?",
+					"queId": "RioEA1",
+					"question": "How many years has it been since the last time rugby was played in the Olympics?",
 					"answerId": "",
 					"questionFormat": "4",
+					"subQuestion": "Did you use the video or the guide to help answer this question?",
 					"answers": [],
-					"subQuestion": "Did it fix her problems?",
-					"contextGroup1": "7De",
-					"contextGroup2": "7De",
+					"contextGroup1": "4NSB",
+					"contextGroup2": "5Ev",
 					"keys1":[
-						"schools",
-						"changed",
-						"new",
-						"left",
-						"transf"
+					"92"
 					],
 					"keys2":[
-						"No",
-						"n't",
-						"friend"
+					"video",
+					"guide",
+					"gude",
+					"guyde",
+					"both"
 					]
 				},
 				{
-					"queId": "Aaa6",
-					"question": "What message is shared between the video and the website?",
+					"queId": "RioEA2",
+					"question": "How are the teams different this year than the last time it rugby was in the Olympics?",
+					"answerId": "0",
+					"questionFormat": "2",
+					"answers": [
+						"Only 7 people are on a team.",
+						"There are now 15 people on each team.",
+						"There are men and women on each team.",
+						"Men are no longer playing rugby at the Olympic level."
+					],
+					"contextGroup1": "5De",
+					"contextGroup2": "5Ev",
+					"keys1": [
+					"classical",
+					"clasical",
+					"Two teams of",
+					"2 teams of"
+					]
+				},
+								{
+					"queId": "RioE3",
+					"question": "How long are most of the rugby games?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"Each half is 2 minutes with a 7 minute halftime.",
+						"Each half is 7 minutes with a 2 minute halftime.",
+						"Each half is 7 minutes with a 10 minute halftime.",
+						"Each half is 10 minutes with a 7 minute halftime."
+					],
+					"contextGroup1": "5De",
+					"keys1":[]
+				},
+				{
+					"queId": "RioEA4",
+					"question": "What is a &quot;try&quot;?",
 					"answerId": "2",
 					"questionFormat": "1",
 					"answers": [
-						"Do not fight at school.",
-						"Friends can be cruel to each other.",
-						"Think carefully before sharing anything online.",
-						"It is important to set the privacy settings on Facebook and Instagram."
-					 ],
-					"contextGroup1": "7MI",
-					"keys1": []
+						"A kick after a penalty worth 3 points.",
+						"Exactly like an NFL touchdown but worth 5 points.",
+						"When a player places the ball on the ground behind the opponents goal line. It is worth 5 points.",
+						"When a player kicks the ball out of bounds. It is worth no points and the other team gains possession of the ball."
+					],
+					"contextGroup1": "5De",
+					"keys1":[]
 				},
 				{
-					"queId": "Aaa7",
-					"question": "Who do you think most needed to read the webpage?",
-					"answerId": "",
-					"questionFormat": "4",
-					"answers": [ ],
-					"contextGroup1": "7Ev",
-					"contextGroup2": "7De",
-					"subQuestion": "What should that person have learned?",
-					"keys1": [
-						"Kate",
-						"Jack",
-						"Rez",
-						"Res",
-						"Em",
-						"Emily"
+					"queId": "RioEA5",
+					"question": "What is the goal of a rugby game?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+					"Hit the hardest.",
+					"Score the most tries.",
+					"Score the most points.",
+					"Run the farthest in 7 minutes."
 					],
-					"keys2": [
-						"safe",
-						"t share",
-						"t give",
-						"t post",
-						"t blog",
-						"t text"
+					"contextGroup1": "5MI",
+					"keys1":[]
+				},
+				{
+					"queId": "RioEA6",
+					"question": "Carlin Isles is amazingly fast! About How long does it take him to run 1 meter?",
+					"answerId": "",
+					"questionFormat": "3",
+					"answers": [ ],
+					"contextGroup1": "5NSB",
+					"keys1": [
+					".1",
+					"tenth"
 					]
+				},
+{
+					"queId": "RioEA7",
+					"question": "Page 2 of the guide says that &quot;Rugby sevens will make its debut at Rio 2016&quot; Look at the context around &quot;debut.&quot; What does &quot;debut&quot; mean in this guide?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [ ],
+					"contextGroup1": "7V",
+					"keys1": [
+					"appear again",
+					"first appearance",
+					"playoff rounds",
+					"gold medal round"
+					]
+				},
+{
+					"queId": "RioEA8",
+					"question": "Which combination of scores is worth 21 points?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [ ],
+					"contextGroup1": "4OA3",
+					"keys1": [
+					"7 penalty kicks",
+					"2 penalty kicks and 1 try",
+					"3 tries with 1 conversion",
+					"3 tries with 2 conversions"
+					]
+				},
+{
+					"queId": "RioEA9",
+					"question": "The guide has a section on page 2 called &quot;ABOUT THE COMPETITION.&quot; What does &quot;competition&quot; mean in this context?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [ ],
+					"contextGroup1": "5V",
+					"keys1": [
+					"fight",
+					"sporting event",
+					"first-place winner",
+					"countries competing"
+					]
+				},
+				{
+					"queId": "RioEA10",
+					"question": "In the &quot;ABOUT THE COMPETITION&quot; section, it says &quot;Men's and women's tournaments are comprised of 12 teams each.&quot; What does this sentence mean?",
+					"answerId": "0",
+					"questionFormat": "1",
+					"answers": [ 
+					"There are 6 men's team that will play 6 women's teams.",
+					"There are !2 men's team that will play 12 women's teams.",
+					"The men's tournament has 6 teams, and the women's tournament has 6 teams.",
+					"The men's tournament has 12 teams, and the women's tournament has 12 teams."
+					],
+					"contextGroup1": "4OA3",
+					"keys1": [
+					"7 penalty kicks",
+					"2 penalty kicks and 1 try",
+					"3 tries with 1 conversion",
+					"3 tries with 2 conversions"
+					]
+				},
+								{
+					"queId": "RioEA11",
+					"question": "What do <i>you <i> think is the most interesting part of rugby?",
+					"answerId": "",
+					"questionFormat": "3",
+					"answers": [ ],
+					"contextGroup1": "5Pre",
+					"keys1": [
+						" "
+						]
 				}
 			]
 	},
 	        {
-	"titleId": "Aab",
-            "topicId": "#July4th #BillofRights #ssMe",
+	"titleId": "RioB",
+            "topicId": "#Lochte #swimUnited #200IM #200Free",
 			"links": [
 				{
-					"description": "The National Archives maintains U.S. historical records. This webpage gives context to the first ten amendments.",
-					"linkY": "http://www.archives.gov/exhibits/charters/bill_of_rights.html"
+					"description": "Ryan Lochte's official bio at usaswimming.org contains key information and fun facts.",
+					"linkY": "http://www.usaswimming.org/DesktopDefault.aspx?TabId=1453&Alias=Rainbow&Lang=en-US&biosid=ef40c7a1-7499-4931-8027-f8a7f1c4175d"
 				},
 				{
-					 "description": "Montpelier was the home of James Madison, the fourth president, and is now a museum. Their website hosts the text of the Bill of Rights with a short introduction.",
-					 "linkY": "https://www.montpelier.org/constitution/bill-of-rights"
+					 "description": "Swimming World conducted an interesting interview with Ryan before the USA national meet that determined the Olympic competitors.",
+					 "linkY": "https://www.youtube.com/watch?v=ttG6EQCr8xU"
 				}
 			],
 			"questions": [
 				{
-					"queId": "Aab1",
-					"question": "Think about the texts your just read. What is an amendment in this context?",
-					"answerId": "1",
+					"queId": "RioEB1",
+					"question": "In the video, Ryan called Michael Phelps a &quot;tough competitor.&quot; What does &quot;competitor&quot; mean to Lochte?",
+					"answerId": "3",
 					"questionFormat": "1",
 					"answers": [
-						"another word for the Constitution",
-						"additional texts added to clarify the Constitution",
-						"important first draft used to create the Constitution",
-						"advertisements that helped convince people to pass the Constitution"
-					],
-					"contextGroup1": "7V",
+						"someone he admires",
+						"someone he really hates",
+						"someone in his sport that he cannot beat",
+						"someone that he respects in his sport that he wants to beat"					],
+					"contextGroup1": "5V",
 					"keys1":[]
 				},
 				{
-					"queId": "Aab2",
-					"question": "What was the primary goal of the Bill of Rights?",
+					"queId": "RioEB2",
+					"question": "What college did Ryan Lochte go to?",
+					"answerId": "",
+					"questionFormat": "4",
+					"subQuestion": "Did you use the video or the bio to help answer this question?",
+					"answers": [],
+					"contextGroup1": "5De",
+					"contextGroup2": "5Ev",
+					"keys1":[
+					"Flor",
+					"FA",
+					"UF",
+					"Gator"
+					],
+					"keys2":[
+					"national",
+					"bio",
+					".org",
+					"usa"
+					]
+				},
+				{
+					"queId": "RioEB3",
+					"question": "How many Olympic gold medals has Ryan Lochte won?",
+					"answerId": "",
+					"questionFormat": "4",
+					"subQuestion": "How many total medals did Ryan Lochte win at the 2014 FINA World Championships?",
+					"answers": [],
+					"contextGroup1": "5De",
+					"contextGroup2": "5De",
+					"keys1":[
+					"5",
+					"fiv"
+					],
+					"keys2":[
+					"8",
+					"eight",
+					"eght",
+					"ate"
+					]
+				},
+					{
+					"queId": "RioEB4",
+					"question": "What are Ryan's future goals?",
+					"answerId": "3",
+					"questionFormat": "1",
+					"answers": [
+					"swim forever",
+					"graduate college",
+					"surf and skateboard",
+					"design his own clothing line"
+					],
+					"contextGroup1": "5De",
+					"keys1": [	]
+				},
+				{
+					"queId": "RioEB5",
+					"question": "Ryan discusses some of the &quot;challenges&quot; that he faces. What does he mean by &quot;challenge&quot;?",
+					"answerId": "3",
+					"questionFormat": "1",
+					"answers": [ 
+					"easy for him to do",
+					"something impossible",
+					"fun and causing no stress",
+					"something difficult but achievable"
+				],
+					"contextGroup1": "5V",
+					"keys1": [	]
+				},
+				{
+					"queId": "RioEB6",
+					"question": "Ryan talks about tapering. If you want to learn more about why older swimmers taper, search &quot;USA Swimming for Senior Swimmers.&quot; What does Ryan say tapering will help him do?",
 					"answerId": "0",
 					"questionFormat": "1",
 					"answers": [
-						"make Americans feel more comfotable with the powers the Constitution gave the U.S. government",
-						"improve the Articles of Confederation so that it could become the Constitution",
-						"determine the number of representatives each state received",
-						"protect people from excessive bail"
-					],
-					"contextGroup1": "7MI",
+					"be less sore",
+					"lift more weight",
+					"beat Michael Phelps in Omaha",
+					"compete in the 200m backstroke"
+					 ],
+					"contextGroup1": "5De",
 					"keys1": []
 				},
 				{
-					"queId": "Aab3",
-					"question": "What problem did the Bill of Rights address?",
+					"queId": "RioEB7",
+					"question": "How far does Ryan swim each day?",
 					"answerId": "",
 					"questionFormat": "4",
+					"subQuestion": "How many hours does Ryan practice each day?",
 					"answers": [],
-					"contextGroup1": "7MI",
-					"contextGroup2": "7Ev",
-					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
-					"keys2": [
-						"During the debat",
-						"Fresh in the",
-						"They demanded a"
-					],
+					"contextGroup1": "5De",
+					"contextGroup2": "5De",
 					"keys1": [
-						"power",
-						"British",
-						"protect",
-						"liberty",
-						"civil rights"
+					"16k",
+					"16 k",
+					"sixteen k",
+					"sixten k"
+					],
+					"keys2": [
+					"5",
+					"fiv"
 					]
 				},
 				{
-					"queId": "Aab4",
-					"question": "Who wrote the Bill of Rights?",
+					"queId": "RioEB8",
+					"question": "Do <i>you <i> think making the Olympics was easy for Ryan or did he work really hard to make the Olympics?",
 					"answerId": "",
 					"questionFormat": "3",
 					"answers": [ ],
-					"contextGroup1": "7De",
-					"keys1": [
-						"Madison",
-						"Madeson",
-						"Madason",
-						"Madisen",
-						"Madisin"
-					]
-				},
-				{
-					"queId": "Aab5",
-					"question": "Which amendment protects the free exercise of speech?",
-					"answerId": "",
-					"questionFormat": "4",
-					"answers": [ ],
-					"contextGroup1": "7De",
-					"contextGroup2": "7De",
-					"subQuestion": "Which amendment protects the free exercise of religion?",
-					"keys1": [
-						"first",
-						"1",
-						"1st",
-						"First",
-						"Ferst"
-					],
-					"keys2": [
-						"first",
-						"1",
-						"1st",
-						"First",
-						"Ferst"
-					]
-				},
-				{
-					"queId": "Aab6",
-					"question": "The fourth amendment protects Americans from &quot;unreasonable&quot; searches. What makes a search unreasonable?",
-					"answerId": "2",
-					"questionFormat": "1",
-					"answers": [
-						"Unreasonable searches involve persons.",
-						"Unreasonable searches involve houses, papers, and effects.",
-						"Unreasonable searches do not determine the places that will be searched and things that will be seized using probable cause.",
-						"Unreasonable searches clearly describe the places that will be searched, things that will be seized, and based on probable cause."
-					 ],
-					"contextGroup1": "7V",
-					"keys1": [],
-					"keys2": []
-				},
-				{
-					"queId": "Aab7",
-					"question": "The sixth amendment protects Americans' right to a fair trial. It uses a term that we do not use much today: &quot;Assistance of Counsel.&quot; Which statement describes what &quot;Assistance of Counsel.&quot; looks like today?",
-					"answerId": "0",
-					"questionFormat": "1",
-					"answers": [
-						"It is a lawyer that assists a person's defense.",
-						"It is a jury made of people from that State and district",
-						"It is a criminal prosecutor that ensures the trial is speedy.",
-						"It is a judge who ensure that informs the nature and cause of the crime.",
-						"It is a witness that provides testimony to help a person charged with a crime."
-					 ],
-					"contextGroup1": "7V",
-					"keys1": [],
-					"keys2": []
-				},
-				{
-					"queId": "Aab8",
-					"question": "What happens to the powers not given to the United States' government?",
-					"answerId": "2",
-					"questionFormat": "1",
-					"answers": [
-						"They are given to Congress.",
-						"They are given to the people.",
-						"They are given to city governments.",
-						"They are given to state governments.",
-						"They are not given to anyone or any government."
-					 ],
-					"contextGroup1": "7De",
-					"keys1": [],
-					"keys2": []
-				},
-				{
-					"queId": "Aab9",
-					"question": "Is there another right that you would want to protect? Describe your right below. Or, if you think the Bill of Rights is perfect describe why you feel that way.",
-					"answerId": "",
-					"questionFormat": "3",
-					"answers": [],
-					"contextGroup1": "7De",
+					"contextGroup1": "5Pre",
 					"keys1": [
 						" ",
-						"No"
+						"hard"
 						]
 				}
 			]
 	},
         {
-	"titleId": "Aac",
-            "topicId": "#June29 #hugeHEfind #chemMe",
+	"titleId": "RioEC",
+            "topicId": "#USWNT #USAvNZL #Aug3",
 			"links": [
 				{
-					"description": "CNN reported on a huge helium find near the east coast of Africa.",
-					"linkY": "http://www.cnn.com/2016/06/28/africa/helium-discovery-tanzania/index.html"
+					"description": "This US Soccer video shows the most recent preparation by the Women's National Team (WNT).",
+					"linkY": "http://www.ussoccer.com/stories/2016/07/29/14/30/160729-wnt-kc-to-dc-to-bra-us-wnt-prep-for-olympics"
 				},
 				{
-					 "description": "The Los Alamos National Labratory works with many chemists. This page describes the sceience behind helium.",
-					 "linkY": "http://periodic.lanl.gov/2.shtml"
+					 "description": "US Soccer published an article looking at the Olympic rookies on the WNT.",
+					 "linkY": "http://www.ussoccer.com/stories/2016/07/25/20/40/160725-wnt-olympic-rookies-ready-for-golden-chance-in-brazil"
 				}
 			],
 			"questions": [
 				{
-					"queId": "Aac1",
-					"question": "Is there a lot of helium in the universe?",
+					"queId": "RioEC1",
+					"question": "What is the US Soccer article about?",
 					"answerId": "4",
 					"questionFormat": "2",
 					"answers": [
-						"No, it was not even discovered until 1868.",
-						"No, it is a found in only a couple places on Earth.",
+						"The US woman won the World Cup just two years ago",
+						"Introducing the new players on the US Soccer team and describing their mindset.",
 						"No, it is a very small percentage of our atmosphere.",
 						"Yes, it is the most common element in the universe.",
 						"Yes, it is the second most common element in the universe."
 					],
-					"contextGroup1": "9De",
+					"contextGroup1": "7MI",
 					"contextGroup2": "9Ev",
 					"keys1":[
 						"Except for hydrogen",
@@ -334,79 +362,74 @@
 					]
 				},
 								{
-					"queId": "Aac2",
-					"question": "Is there enough helium on Earth?",
-					"answerId": "3",
-					"questionFormat": "2",
-					"answers": [
-						"No, only the United States has helium.",
-						"No, only 1 part in 200,000 molecules are helium.",
-						"We now think so because just one part of the find could supply the world for years.",
-						"We now think so because the U.S. started storing helium today to make sure we always have enough."
-					],
-					"contextGroup1": "9MI",
-					"contextGroup2": "9Ev",
-					"keys1":[
-						"The team est",
-						"To put this",
-						"This is a",
-						"Thats all set",
-						"That's all set"
-					]
-				},
-								{
-					"queId": "Aac3",
-					"question": "Atmosphere is mentioned many time in the articles. What is another word for atmosphere in this context?",
+					"queId": "RioEC2",
+					"question": "The article has this quote from Alyssa Naeher: &quot;â€œThose that have been at the Olympics before will give support to us first timers and we can <i>reciprocate</i> by bringing what we learned during the World Cup experience to those who are experiencing their first world championship.&quote <br> <br> What does Alyssa Naeher mean by the word <i>reciprocate</i>?",
 					"answerId": "0",
 					"questionFormat": "1",
 					"answers": [
-						"air",
-						"Earth",
-						"helium",
-						"hydrogen",
-						"space"
+						"give back",
+						"learn from",
+						"take from them",
+						"play as backups"
 					],
-					"contextGroup1": "9V",
+					"contextGroup1": "7V",
+					"keys1":[]
+				},
+								{
+					"queId": "RioEC3",
+					"question": "What is an &quot'olympic rookie&quot;?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"someone who only competed in one olympics",
+						"someone who will start for the USWNT for the first time in Rio",
+						"someone who will compete in the olympics for the first time in Rio",
+						"someone who will be on the team but not play for the USWNT in Rio"
+					],
+					"contextGroup1": "7MI",
 					"keys1":[]
 				},
 				{
-					"queId": "Aac4",
-					"question": "The Los Alamos National Labratory calls helium an importnant &quot;component in both the proton-proton reaction and the carbon cycle.&quot; What does &quot;component&quot; mean in this article?",
-					"answerId": "0",
-					"questionFormat": "1",
+					"queId": "RioEC4",
+					"question": "Who is the youngest woman to make the USWNT?",
+					"answerId": "1",
+					"questionFormat": "2",
 					"answers": [
-						"a part of",
-						"the result of",
-						"a complete cycle",
-						"a proton-proton cycle"
+						"Alex Morgan",
+						"Cindy Parlow",
+						"Morgan Brian",
+						"Mallory Pugh"
 					],
-					"contextGroup1": "7V",
+					"contextGroup1": "7De",
+					"contextGroup2": "7Ev",
 					"keys1": [
-					    "It is our",
-					    "Which makes you",
-					    "Which make you"
+					    "As for Pu",
+					    "She will be",
+					    "She wil be"
 					]
 				},
 				{
-					"queId": "Aac5",
-					"question": "Why do we need helium?",
-					"answerId": "3",
-					"questionFormat": "2",
-					"answers": [ 
-						"to breathe",
-						"to fuel volcanic eruptions",
-						"because it is in natural gas",
-						"high-tech machines like nuclear reactors and MRI machines"
-					],
-					"contextGroup1": "9De",
+					"queId": "RioEC5",
+					"question": "Which rookie scored the second goal against Costa Rica?",
+					"answerId": "",
+					"subQuestion": "Did you use the video or the article to answer this question?",
+					"questionFormat": "4",
+					"answers": [ 	],
+					"contextGroup1": "7De",
 					"contextGroup2": "9Ev",
 					"keys1": [
-						"Helium may bes",
-						"Helum may bes"
+						"Mallor",
+						"Malor",
+						"Pug",
+						"Puh"
+					],
+					"keys2": [
+					"vid",
+					"recap"
 					]
 				},
 				{
-					"queId": "Aac6",
+					"queId": "RioEC6",
 					"question": "Diveena Danabalan is quoted saying: &quot;We are now working to identify the 'goldilocks-zone' between the ancient crust and the modern volcanoes where the balance between helium release and volcanic dilution is 'just right'.&quot; Which phase helps describe what she means by the term &quot;goldilocks-zone&quot;?",
 					"answerId": "6",
 					"questionFormat": "1",
@@ -423,244 +446,201 @@
 					"keys1": []
 				},
 								{
-					"queId": "Aac7",
-					"question": "Where is Tanzania?",
-					"answerId": "0",
-					"questionFormat": "2",
-					"answers": [
-						"in the East African Rift Valley",
-						"surrounding Durham",
-						"next to India",
-						"near Tokyo",
-						"in Japan"
-					 ],
+					"queId": "RioEC7",
+					"question": "How many games will the USWNT play in Rio?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [],
 					"contextGroup1": "9De",
 					"contextGroup2": "9Ev",
 					"keys1": [
-						"Within the",
-						"That's all set",
-						"Thats all set"
+						"6",
+						"six"
+						]
+				}
+			]
+	},
+        {
+	"titleId": "RioED",
+            "topicId": "#Katie #Ledecks #classOf2015",
+			"links": [
+				{
+					"description": "USA Todayhas a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in CBS This Morning's series called:  Pushing the Limits.",
+					 "linkY": "https://www.youtube.com/watch?v=WQWvxmgjupU"
+				}
+			],
+			"questions": [
+				{
+					"queId": "RioED1",
+					"question": "How do the article and video portray Katie Ledecky?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [
+						"an amazing talent that never has to work too hard",
+						"a driven athlete that works hard and performs amazingly",
+						"a funny teammate who always makes sure her teammates are loose",
+						"a cocky swimmer who knows that she can win without trying too hard"
+					],
+					"contextGroup1": "5MI",
+					"keys1":[]
+				},				{
+					"queId": "RioED2",
+					"question": "In the newspaper article, Ryan Lochte is quoted as saying, &quot;I donâ€™t think sheâ€™s really touched her potential in the water yet. I think sheâ€™s just going to get faster. I guarantee in Rio everyoneâ€™s mouths are going to drop during one of her races.&quot; What does Ryan mean when he talks about Katie's &quot;potential&quot;?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [
+						"stroke",
+						"speed",
+						"greatest set of possible future skills",
+						"large amount of internal strength and energy"
+					],
+					"contextGroup1": "5V",
+					"keys1":[]
+				},
+				{
+					"queId": "RioED3",
+					"question": "Janet Evans set middle-distance records. She described Katie in the <i>USA Today</i> article as &quot;She's clearly that good, but her stroke and technique and power, I always thought middle (distance). She's got that easy speed. It's <i>evident</i> she could go down to the 100.&quot; What does &quot;evident&quot; mean in this context?",
+					"answerId": "2",
+					"questionFormat": "2",
+					"answers": [
+						"not video recorded",
+						"there is a video recording that",
+						"there is evidence to show that",
+						"soon there will be evidence that she cannot"
+					],
+					"contextGroup1": "5V",
+					"keys1": [
 					]
 				}
 			]
 	},
         {
-	"titleId": "Aad",
-            "topicId": "#myGrit #Ican #IhelpMe",
+	"titleId": "RioEE",
+            "topicId": "#heptathlon #womenWarriors #rules #vid",
 			"links": [
 				{
-					"description": "Angela Duckworth is a former teacher and a researcher. She studies gritty students, and how successful these students are. After watching the video, scroll down to the button for &quot;Interactive Transcript.&quot; Use the transcript to help answer the questions.",
-					"linkY": "https://www.ted.com/talks/angela_lee_duckworth_the_key_to_success_grit?language=en"
+					"description": "The New Zealand reporting on the United States vs. New Zealand women's rugby game on August 7th.",
+					"linkY": "http://www.stuff.co.nz/sport/olympics/82915418/Rio-Olympics-2016-Sevens-sisters-to-face-USA-in-womens-sevens-quarterfinals"
 				},
 				{
-					 "description": "This website has 10 questions that measures grit. You may want to bookmark the survey and return to it from time to time.",
-					 "linkY": "http://angeladuckworth.com/grit-scale/"
+					 "description": "NBC's story about the United States vs. New Zealand women's rugby game on August 7th;",
+					 "linkY": "http://olympics.nbcsports.com/2016/08/07/team-usa-womens-rugby-edged-by-mighty-new-zealand-in-quarters/"
 				}
 			],
 			"questions": [
-				{
-					"queId": "Aad1",
-					"question": "What does Angela Duckworth think makes people good at math?",
-					"answerId": "1",
-					"questionFormat": "1",
-					"answers": [
-						"be smart",
-						"have a high IQ",
-						"be good at math",
-						"work hard and long enough"
-					],
-					"contextGroup1": "7MI",
-					"keys1":[]
-				},
-				{
-					"queId": "Aad2",
-					"question": "What is grit?",
-					"answerId": "2",
-					"questionFormat": "2",
-					"answers": [
-						"high test scores",
-						"another word for intelligence",
-						"passion and perseverence for long-term goals",
-						"a type of talent possessed by the smartest people"
-					],
-					"contextGroup1": "7MI",
-					"contextGroup2": "7Ev",
-					"keys1": [
-					    "Grit is pa",
-					    "Grit is hav",
-					    "Grit is sti"
-					]
-				},
-				{
-					"queId": "Aad3",
-					"question": "In the summary Dr. Duckworth says, &quot;We need to take our best ideas, our strongest <i>intuitions</i>, and we need to test them.&quot; What does &quot;intuitions&quot; in this sentence?",
-					"answerId": "0",
-					"questionFormat": "1",
-					"answers": [
-						"good guesses about what might work",
-						"existing knowledge of what works best",
-						"investigations into what just happened",
-						"evidence from previous studies about what works best"
-					 ],
-					"contextGroup1": "7V",
-					"keys1": []
-				},
-				{
-					"queId": "Aad4",
-					"question": "What problem confronted Angela Duckworth as a teacher?",
-					"answerId": "2",
-					"questionFormat": "2",
-					"answers": [
-						"She taught in New York City.",
-						"Her students were not motivated to perform well.",
-						"Her students did poorly on the standardized test.",
-						"Her strongest performers did not have high IQ scores, and her &quot;smartest&quot; weren't doing so well.",
-						"Her students scored very low on the Grit Scale, but other classes had very high scores on the Grit Scale."
-					 ],
-					"contextGroup1": "7MI",
-					"contextGroup2": "7Ev",
-					"keys1": [
-						"What struck me",
-						"What stuck me",
-						"Some of my",
-						"Som of my"
-					]
-				},
-								{
-					"queId": "Aad5",
-					"question": "What is a &quot;growth mindset&quot;?",
-					"answerId": "2",
+							{
+					"queId": "Rioae1",
+					"question": "Who won the United States vs. New Zealand women's rugby game?",
+					"subQuestion": "How much did they win by?",
+					"answerId": "",
 					"questionFormat": "4",
 					"answers": [],
 					"contextGroup1": "7MI",
-					"contextGroup2": "7Ev",
-					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
-					"keys1": [
-						"ability",
-						"learn",
-						"not fix",
-						"change",
-						"effort"
+					"contextGroup2": "7MI",
+					"keys1":[
+					"New Zealand",
+					"New Zeland",
+					"New Zeeland",
+					"NZ",
+					"NZL"
 					],
-					"keys2": [
-						"So far",
-						"This is an",
-						"Some of my",
-						"Som of my",
-						"Dr. Dweck has",
-						"Dr Dweck has",
-						"Dr Deck has",
-						"Dr. Deck has"
+					"keys2":[
+					"5",
+					"five"
 					]
 				},
 				{
-					"queId": "Aad6",
-					"question": "Recall that Dr. Duckworth said, &quot;In fact, in our data, grit is usually unrelated or even inversely related to measures of talent.&quot; What does &quot;inverse&quot; mean in this sentence?",
+					"queId": "RIOae2",
+					"question": "How many games did the United States women's rugby team play on August 7th?",
+					"subQuestion": "Did you use the New Zealand article or the NBC article?",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [],
+					"contextGroup1": "7DE",
+					"contextGroup2": "7EV",
+					"keys1": [
+						"two",
+						"2"
+						],
+					"keys2": [
+						"NBC"
+					]
+				},
+				{
+					"queId": "RIOae3",
+					"question": "The NBC article contains this quote: &quot; A penalty was awarded, and the U.S. had a big chance to tie or win. They couldnâ€™t convert.&quot; <br /><br /> What do they mean by &quot;couldn't convert&quot;?",
 					"answerId": "2",
 					"questionFormat": "1",
-					"answers": [
-						"unrelated",
-						"exactly related",
-						"as grit increases talent decreases",
-						"as grit increases talent slightly increases"
+					"answers": [ 
+					"did not tie",
+					"did not win",
+					"did not score",
+					"did not get a penalty"
 					],
 					"contextGroup1": "7V",
 					"keys1": []
 				},
 				{
-					"queId": "Aad7",
-					"question": "Dr. Dweck and Dr. Duckworth think it's important to learn about the brain. That is why we have #brainMe articles for you. What happens when Dr. Dweck taught students about how the brain grows and changes when it is challenged?",
-					"answerId": "",
-					"questionFormat": "4",
-					"answers": [ ],
-					"contextGroup1": "7De",
-					"contextGroup2": "7Ev",
-					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
-					"keys1": [
-						"persev",
-						"persiv",
-						"t permanent",
-						"t fixed",
-						""
-					],
-					"keys2": [
-						"Dr. Dweck has",
-						"Dr Dweck has",
-						"Dr Deck has",
-						"Dr. Deck has"
-					]
-				}
-			]
-	},
-        {
-	"titleId": "Aae",
-            "topicId": "#June 29 #purseblog #fashionMe",
-			"links": [
-				{
-					"description": "Emily Anderson's article Purseblog describes an interesting connection between many of this week's handbags.",
-					"linkY": "http://www.purseblog.com/buzz-worthy/next-trendy-designer-bags/"
-				},
-				{
-					 "description": "Amanda Mull's article from May 19th is called &quot;6 Bags That are About to Have a Very Big Summer.&quot;",
-					 "linkY": "http://www.purseblog.com/buzz-worthy/next-trendy-designer-bags/"
-				}
-			],
-			"questions": [
-				{
-					"queId": "Aae1",
-					"question": "What are these two articles mainly about?",
-					"answerId": "1",
-					"questionFormat": "1",
-					"answers": [
-						"Different hair trends that may takehold this summer.",
-						"Different handbag trends that may takehold this summer.",
-						"Six bags that sold the most this Spring and should sell the most this Summer.",
-						"The eight best bags worn this week as voted by all the readers on Purseblog.com"
-					],
-					"contextGroup1": "7MI",
-					"keys1":[]
-				},
-				{
-					"queId": "Aae2",
-					"question": "What fraction of the bags are red in the first article?",
-					"answerId": "",
-					"questionFormat": "4",
-					"answers": [],
-					"contextGroup1": "M105",
-					"subQuestion": "Describe whether you think this is a fashion trend for Summer '16.",
-					"contextGroup2": "9EI",
-					"keys1": [
-						"1/2",
-						"2/4",
-						"4/8",
-						"half",
-						"halv"
-					],
-					"keys2": [
-						"No ",
-						"not ",
-						"No",
-						"not",
-						"don't"
-					]
-				},
-				{
-					"queId": "Aae4",
-					"question": "Emily Anderson wrote this sentnece about Rihanna's bag:, &quot;Rihanna carried this bag many times in 2015, but she took an <i>extended</i> break from it in 2016 so she could spend more time with all of her Dior bags.&quot; What does &quot;extended&quot; mean in this context?",
+					"queId": "RIOaa4",
+					"question": "Which player scored the winning try?",
 					"answerId": "",
 					"questionFormat": "3",
 					"answers": [ ],
-					"contextGroup1": "7V",
+					"contextGroup1": "7De",
 					"keys1": [
-						"time",
-						"long",
-						"period"
+						"Woodman"
 					]
-
 				},
 				{
+					"queId": "RIOae5",
+					"question": "In Marc Hinton's article he writes, &quot;Horan's players were up against it for periods of the second half, especially when playmaker Tyla Nathan-Wong was sinbinned...&quot; <br /><br /> What do they mean by &quot;periods&quot; in this context?",
+					"answerId": "2",
+					"questionFormat": "1",
+					"answers": [ 
+					"amounts of time",
+					"punctuation marks",
+					"times they had less points",
+					"marks of a difficult competition"
+					],
+					"contextGroup1": "7V",
+					"keys1": []
+				},
+				{
+					"queId": "RIOae5",
+					"question": "In Marc Hinton's article he writes, &quot;Australia will meet Canada in the other semifinal on day three, with the gold medal favourites progressing comfortably through the quarterfinal phase with a 24-0 victory over Spain.&quot; <br /><br /> What do they mean by &quot;progressing&quot; in this context?",
+					"answerId": "1",
+					"questionFormat": "1",
+					"answers": [ 
+					"losing by many points",
+					"going to the next round",
+					"winning by a few points",
+					"traveling to a new stadium"
+					],
+					"contextGroup1": "7V",
+					"keys1": []
+				}
+			]
+		},        {
+	"titleId": "RioEF",
+            "topicId": "#decathlon #menOManyTalents #rules #vid",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "https://www.youtube.com/watch?v=WQWvxmgjupU"
+				}
+			],
+			"questions": [
+				{
 					"queId": "Aaa4",
-					"question": "What happens when Lucius Malfoy throws the sock at Dobby?",
+					"question": "",
 					"answerId": "",
 					"questionFormat": "4",
 					"answers": [ ],
@@ -668,11 +648,310 @@
 					"contextGroup2": "7De",
 					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
 					"keys1": [
-						"free"
 					],
 					"keys2": [
-						"Master threw it",
-						"Dobby is free"
+					]
+				}
+			]
+		},      
+        {
+	"titleId": "RioEG",
+            "topicId": "#discus #rules #vid",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "https://www.youtube.com/watch?v=WQWvxmgjupU"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEH",
+            "topicId": "#judo #prepArticles",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "https://www.youtube.com/watch?v=WQWvxmgjupU"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEI",
+            "topicId": "#USABWNT #ready4Rio",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "https://www.youtube.com/watch?v=WQWvxmgjupU"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEJ",
+            "topicId": "#USAWMNT #USABMNT #cruisin #shipLife",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://www.usatoday.com/story/sports/olympics/rio-2016/2016/08/01/katie-ledecky-team-usa-swimming-olympics/87904910/"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "http://www.dailymail.co.uk/sport/othersports/article-3711461/USA-push-boat-basketball-teams-stay-cruise-liner-Rio-Olympics.html"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEK",
+            "topicId": "#USAWMNT #USABMNT #cruisin #shipLife",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://espn.go.com/olympics/story/_/id/15165158/us-mens-women-basketball-teams-stay-cruise-ship-rio-games"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "http://www.dailymail.co.uk/sport/othersports/article-3711461/USA-push-boat-basketball-teams-stay-cruise-liner-Rio-Olympics.html"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+      
+		        {
+	"titleId": "RioEL",
+            "topicId": "#USAWMNT #USABMNT #cruisin #shipLife",
+			"links": [
+				{
+					"description": "<i>USA Today</i> has a great article describing Katie Ledecky's journey.",
+					"linkY": "http://espn.go.com/olympics/story/_/id/15165158/us-mens-women-basketball-teams-stay-cruise-ship-rio-games"
+				},
+				{
+					 "description": "For obvious reasons, Katie Ledecky was the first spotlight in &quot;CBS This Morning&quot;'s series called &quot;Pushing the Limits.&quot;",
+					 "linkY": "http://www.dailymail.co.uk/sport/othersports/article-3711461/USA-push-boat-basketball-teams-stay-cruise-liner-Rio-Olympics.html"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},            
+		        {
+	"titleId": "RioEM",
+            "topicId": "#USAWNT #w2w4 #USAvNZL",
+			"links": [
+				{
+					"description": "Here is the match break down from US Soccer perspective.",
+					"linkY": "http://www.ussoccer.com/stories/2016/08/01/14/54/160801-wnt-gallery-wnt-focused-ahead-of-new-zealand-match"
+				},
+				{
+					 "description": "The USWNT last played New Zealand April 2015. This US Soccer article summarized that match.",
+					 "linkY": "http://www.ussoccer.com/stories/2015/04/04/16/21/150404-wnt-v-nzl-gamestory"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+
+		        {
+	"titleId": "RioEN",
+            "topicId": "#openingCeremonies #Aug5",
+			"links": [
+				{
+					"description": "Here is the match break down from US Soccer perspective.",
+					"linkY": "http://www.ussoccer.com/stories/2016/08/01/14/54/160801-wnt-gallery-wnt-focused-ahead-of-new-zealand-match"
+				},
+				{
+					 "description": "The USWNT last played New Zealand April 2015. This US Soccer article summarized that match.",
+					 "linkY": "http://www.ussoccer.com/stories/2015/04/04/16/21/150404-wnt-v-nzl-gamestory"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "zcdcvbbbvb  vxczz",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEO",
+            "topicId": "#olympicFlame #12450Friends",
+			"links": [
+				{
+					"description": "Rio article.",
+					"linkY": "https://www.rio2016.com/en/news/greek-fire-lights-up-rio-2016-games-olympic-torch-lit-in-traditional-ceremony-at-olympia"
+				},
+				{
+					 "description": "Facts & figures",
+					 "linkY": "https://www.olympic.org/rio-2016-torch-relay"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
+					]
+				}
+			]
+		},      
+		        {
+	"titleId": "RioEP",
+            "topicId": "#USteam #554Strong",
+			"links": [
+				{
+					"description": "Here is the match break down from US Soccer perspective.",
+					"linkY": "http://www.teamusa.org/Road-To-Rio-2016/Team-USA/Fun-Facts"
+				},
+				{
+					 "description": "The USWNT last played New Zealand April 2015. This US Soccer article summarized that match.",
+					 "linkY": "hhttp://www.teamusa.org/News/2016/July/31/5-Days-Left-To-Rio-These-5-Former-Flag-Bearers-Grace-The-2016-US-Olympic-Roster"
+				}
+			],
+			"questions": [
+				{
+					"queId": "Aaa4",
+					"question": "",
+					"answerId": "",
+					"questionFormat": "4",
+					"answers": [ ],
+					"contextGroup1": "7Ev",
+					"contextGroup2": "7De",
+					"subQuestion": "Write the first 3 words of a sentence that shows your answer is correct.",
+					"keys1": [
+					],
+					"keys2": [
 					]
 				}
 			]
