@@ -22,7 +22,7 @@
     <script src="lib/moment/moment.js"></script>
     <script src="lib/angular-moment/angular-moment.js"></script>
 
-    <title>Summer Reading Companion</title>
+    <title>edMe Rio ELA</title>
 </head>
 
 <!-- Calling onDeviceReady function right in the body tag-->
@@ -30,30 +30,37 @@
 
     <div data-role="page" id="home_1_page">
         <div data-role="header">
-            <h6>Summer Reading Companion</h6>
+            <h6>edMe Rio - ELA</h6>
             <a href="#about_page" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-info" data-transition="pop"></a>
         </div>
 
         <div role="main" class="ui-content">
             <p id="home1"></p>
-            <h4>Enter your Email Address to Log in to the App!</h4>
+            <h4>If you would like feedback, please enter an e-mail address to log in.</h4><br /><h4>Or, click "I do not want feedback."</h4>
             <br />
             <input id="email" type="text" name="email" required>
             <!--<input type="text" id="text1">-->
             <a href="#home_page" class="ui-btn ui-corner-all" data-transition="flip" id="Log_in_btn">Log in</a>
             <!-- Let's persist this data locally. 1) take the text in the text box. 2) save it locally (var localEmail). 3) Wrap this box in a conditional statement:
             <!-- Conditional logic: If localEmail != "", then display localEmail as string in text box. Else, if localEmail === "", then display current text box. -->
+            <br />
+            <br />
+            <br />
+            <br />
+            <a href="#home_page" class="ui-btn ui-corner-all" data-transition="flip" id="no_Feedback_btn">I do not want feedback</a>
+
         </div>
     </div>
 
 
     <div data-role="page" id="home_page">
         <div data-role="header">
-            <h6>Summer Reading Companion</h6>
+            <h6>edMe Rio - ELA</h6>
         </div>
 
         <div role="main" class="ui-content">
-            <h4>Welcome Student!!</h4>
+            <h4>Welcome to edMe's Rio app!! The next screen lists topics from the 2016 Olympic Games. Click one that interests you, and you will see interesting articles and videos.</h4><br /><br />
+            <h4>Then, there are questions that help you understand the topic more deeply. Enjoy!</h4>
             <a href="#chapters_page" class="ui-btn ui-corner-all" data-transition="flip" id="start_btn">Start</a>
         </div>
 
@@ -81,7 +88,7 @@
 
     <div data-role="page" id="sites_page">
         <div data-role="header">
-            <h1>Sites</h1>
+            <h1>Olumpic topics</h1>
             <a href="#chapters_page" class="ui-btn ui-corner-all ui-btn-icon-left ui-icon-back" data-transition="flip" data-direction="reverse">Back</a>
         </div>
 

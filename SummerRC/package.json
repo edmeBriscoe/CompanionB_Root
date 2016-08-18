@@ -1,7 +1,7 @@
 {
   "name": "summerreadingcompanion",
   "description": "Summer Reading Companion",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "private": true,
      "logo": "https://reading-companionhp1.herokuapp.com/www/images/cordova.png",
     "dependencies": {

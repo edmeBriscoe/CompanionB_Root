@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.edMe.companionB1;
+package com.edMe.companionB3;
 
 import android.os.Bundle;
 import org.apache.cordova.*;

@@ -39,7 +39,7 @@ var socket = io.connect('http://ec2-52-87-183-35.compute-1.amazonaws.com:9000');
 
 //Initializing newScore data element (captures the data for each item)
 var newScore = {
-    email: null,
+    email: device.uuid,
     questionId: null,
     contextGrp1: null,
     score1: null,
@@ -78,6 +78,7 @@ function onDeviceReady() {
         url: "http://e-ccss.com/RioELA.json",
         dataType: "json",
         crossDomain: true,
+        cache:false,
         xhrFields: {
             withCredentials: true
         }
@@ -104,6 +105,8 @@ function ajaxSuccess(data) {
     if (jsonData != null) {
         $("#Log_in_btn").on('click', validateEmail);
         $("#start_btn").on('click', addAllChapters);
+        $("#no_Feedback_btn").on('click', noFeedback);
+
     }
 }
 

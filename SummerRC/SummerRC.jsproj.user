@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <ReferenceCachePath>C:\Users\BinduK\AppData\Local\Temp\mwgfisgx_SummerRC_refcache</ReferenceCachePath>
+    <ReferenceCachePath>C:\Users\CoreCompanion\AppData\Local\Temp\m2fm2ora_SummerRC_refcache</ReferenceCachePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Android'">
     <DebuggerFlavor>RippleNexus</DebuggerFlavor>
@@ -9,7 +9,7 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Android'">
     <DebuggerFlavor>AndroidEmulator</DebuggerFlavor>
-    <AndroidEmulatorID>AndroidDevice;Device</AndroidEmulatorID>
+    <AndroidEmulatorID>226C76AC-9E9A-4EBD-A495-79E8C5C5292F;VS Emulator 7" KitKat (4.4) XHDPI Tablet</AndroidEmulatorID>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|iOS'">
     <DebuggerFlavor>iOSLocalDevice</DebuggerFlavor>
